@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Build a webpage Using Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+<body>
+<!-- Navbar-->
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><img src="logo.jpg" alt ="logo" width="80"/></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#destinations">Destinations</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact Us</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<!--carousel-->
+<div id="carouselExampleIndicators" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="falls.jpg" class="d-block w-100" alt="falls">
+    </div>
+    <div class="carousel-item">
+      <img src="lighthouse.jpg" class="d-block w-100" alt="lighthouse">
+    </div>
+    <div class="carousel-item">
+      <img src="mountains.jpg" class="d-block w-100" alt="mountains">
+    </div>
+     <div class="carousel-item">
+      <img src="river.jpg" class="d-block w-100" alt="river">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<!--Main Container-->
+<div class="Container">
+<h1 class="text-center p-5 mb-5 mt-5">Canada Tour!</h1>
+
+<div class="w-100 bg-dark-subtle p-5 mb-5">
+    <p>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, ut, eaque itaque reiciendis quis molestias nesciunt nihil ipsum excepturi cum delectus, error unde totam eius aliquid corrupti ad fugiat fuga.
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, ut, eaque itaque reiciendis quis molestias nesciunt nihil ipsum excepturi cum delectus, error unde totam eius aliquid corrupti ad fugiat fuga.
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, ut, eaque itaque reiciendis quis molestias nesciunt nihil ipsum excepturi cum delectus, error unde totam eius aliquid corrupti ad fugiat fuga.
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, ut, eaque itaque reiciendis quis molestias nesciunt nihil ipsum excepturi cum delectus, error unde totam eius aliquid corrupti ad fugiat fuga.
+    </p>
+   <button type="button" class="btn btn-primary btn-lg">Book your trip now </button>
+</div>
+
+<h2 id="destinations" class="fs-1 p-5 mt-5 mb-5 text-center">Popular Destinations</h2>
+<div class="row">
+    <div class="col">
+<!-- Card 1-->
+<div class="card" style="width: 18rem;">
+  <img src="bgl.jpg" class="card-img-top" alt="Bgl">
+  <div class="card-body">
+    <h5 class="card-title">Banglore</h5>
+    <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora placeat rerum totam modi veniam vitae voluptate consequatur, sint quam nobis nisi a nam corrupti mollitia perferendis nemo tenetur laboriosam sit!</p>
+    <a href="#" class="btn btn-primary">Read more</a>
+  </div>
+</div>
+<br>
+<!-- Card 2-->
+<div class="card" style="width: 18rem;">
+  <img src="mysore.jpg" class="card-img-top" alt="mysr">
+  <div class="card-body">
+    <h5 class="card-title">Mysore</h5>
+    <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora placeat rerum totam modi veniam vitae voluptate consequatur, sint quam nobis nisi a nam corrupti mollitia perferendis nemo tenetur laboriosam sit!</p>
+    <a href="#" class="btn btn-primary">Read more</a>
+  </div>
+</div>
+<br>
+<!-- Card 3-->
+<div class="card" style="width: 18rem;">
+  <img src="ramanagara.jpg" class="card-img-top" alt="rng">
+  <div class="card-body">
+    <h5 class="card-title">Ramanagar</h5>
+    <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora placeat rerum totam modi veniam vitae voluptate consequatur, sint quam nobis nisi a nam corrupti mollitia perferendis nemo tenetur laboriosam sit!</p>
+    <a href="#" class="btn btn-primary">Read more</a>
+  </div>
+</div>
+
+    </div>
+</div>
+
+<!--About-->
+<h2 id="about" class="fs-1 p-5 mt-5 mb-5 text-center">About</h2>
+<div class="row">
+<div class="col-6">
+    <div class="bg-secondary text-white p-5 mt-5 mb-5">
+        <h2>Rates</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+            Error assumenda ipsa libero alias magni, eligendi nostrum voluptas
+             quam tempora. Sequi tempore nulla voluptatibus ipsum alias commodi consectetur aperiam voluptatem debitis!
+    </p>
+    </div>
+    </div>
+
+    <div class="col-6">
+    <div class="bg-dark-subtle p-5 mt-5 mb-5">
+        <h2>Fees</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+            Error assumenda ipsa libero alias magni, eligendi nostrum voluptas
+             quam tempora. Sequi tempore nulla voluptatibus ipsum alias commodi consectetur aperiam voluptatem debitis!
+    </p>
+    </div>
+    </div>
+    <div class="col-6">
+    <div class="bg-dark-subtle p-5 mt-5 mb-5">
+        <h2>Popular Sites</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+            Error assumenda ipsa libero alias magni, eligendi nostrum voluptas
+             quam tempora. Sequi tempore nulla voluptatibus ipsum alias commodi consectetur aperiam voluptatem debitis!
+    </p>
+    </div>
+    </div>
+</div>
+
+
+
+<!-- Contact Us-->
+ <h2 id="contact" class="fs-1 p-5 mt-5 mb-5 text-center">Contact Us </h2>
+ <div class="w-100 bg-dark-subtle p-5 mb-5">
+    <p>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, ut, eaque itaque reiciendis quis molestias nesciunt nihil ipsum excepturi cum delectus, error unde totam eius aliquid corrupti ad fugiat fuga.
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, ut, eaque itaque reiciendis quis molestias nesciunt nihil ipsum excepturi cum delectus, error unde totam eius aliquid corrupti ad fugiat fuga.
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, ut, eaque itaque reiciendis quis molestias nesciunt nihil ipsum excepturi cum delectus, error unde totam eius aliquid corrupti ad fugiat fuga.
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, ut, eaque itaque reiciendis quis molestias nesciunt nihil ipsum excepturi cum delectus, error unde totam eius aliquid corrupti ad fugiat fuga.
+    </p>
+   <button type="button" class="btn btn-primary btn-lg"><a href="https://www.google.com/" class="text-white text-decoration-none">Contact us for more information</a> </button>
+</div>
+
+<h2 class="fs-1 p-5 mt-5 mb-5 text-center">Relax in Beautiful Canda</h2>
+<img src="hotel.jpg" alt="vacation" class="w-100 mb-5">
+
+
+</div>
+<!--End of container -->
+
+<footer class="bg-dark mt-5 p-5 text-white text-center">
+    <p>&copy; Tour canada Today</p>
+    <p><a href="rishithangowda3@gmail.com" class="text-white ">Email Us</a></p>
+</footer>
+
+
+
+
+
+
+
+
+
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
